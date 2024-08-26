@@ -15,7 +15,7 @@ function generateListing() {
         
         •9/10 comfort rating
         •Beautiful Modern Design
-        •No damage/rips/smells | ${condition} home
+        •No damage/rips/smells | ${condition}
         •High quality will last years.
         
         Asking $${price} Cash
