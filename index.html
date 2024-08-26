@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Couch Me</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Couch Me</h1>
+        <form id="couch-form">
+            <label for="color">Color:</label>
+            <input type="text" id="color" required>
+            
+            <label for="style">Style:</label>
+            <input type="text" id="style" required>
+            
+            <label for="brand">Brand:</label>
+            <input type="text" id="brand">
+            
+            <label for="condition">Condition:</label>
+            <input type="text" id="condition" required>
+            
+            <label for="price">Price:</label>
+            <input type="text" id="price" required>
+            
+            <label for="dimensions">Dimensions:</label>
+            <input type="text" id="dimensions">
+            
+            <button type="button" onclick="generateListing()">Generate Listing</button>
+        </form>
+        <div id="result">
+            <h2>Generated Listing:</h2>
+            <p id="title"></p>
+            <p id="description"></p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
