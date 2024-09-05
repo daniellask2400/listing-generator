@@ -2,7 +2,6 @@ function generateListing() {
     const color = document.getElementById('color').value;
     const style = document.getElementById('style').value;
     const brand = document.getElementById('brand').value;
-    const condition = document.getElementById('condition').value;
     const price = document.getElementById('price').value;
     const dimensions = document.getElementById('dimensions').value;
 
@@ -15,7 +14,7 @@ function generateListing() {
         
         •9/10 comfort rating
         •Beautiful Modern Design
-        •No damage/rips/smells | ${condition}
+        •No damage/rips/smells | No Smoking
         •High quality will last years.
         
         Asking $${price} Cash
